@@ -1,0 +1,19 @@
+:root{
+    --back: hsl(231, 26%, 10%);
+}
+main{
+    display: inline-block;
+    padding-left: 30px;
+    background-color: var(--back);
+    color: white;
+}
+header{
+    background-color: var(--back);
+
+}
+.qna h2{
+    font-size: 50px;
+}
+.qna p{
+    font-size: 25px;
+}
