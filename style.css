@@ -4,33 +4,7 @@
 body{
     margin: 0;
 }
-/*.navbar a{
-    text-decoration: none;
-    padding: 15px;
-    background-color: hsl(25, 75%, 47%);
-    color: black;
-    display: block; 
-    text-align: center;
-}
-.navbar a:hover{
-    background-color: hsl(25, 75%, 67%);
-}
-.navbar li{
-    float: left;
-}
-.navbar ul{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    float: left;
-    overflow: hidden;
 
-}
-.navbar{
-    background-color: hsl(25, 75%, 47%);
-
-}
-*/
 .navbar{
     text-align: center;
 }
