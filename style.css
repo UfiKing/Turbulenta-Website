@@ -42,28 +42,36 @@ body{
     overflow: hidden;
 
 }
-.navbar a{
+#tab{
     color: black;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
+#tab:hover{
     background-color: hsl(25, 75%, 67%);
 
 }
-.navbar li{
+#tab{
     float: left;
+}
+.navbar i{
+    float: right;
+    size: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 }
 .frontimage{
     position: relative;
     display: inline-block;
+    height: 100%;
 }
 .frontimage img{
-    display: block;
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    max-width: 100%;
+
 }
 .frontimage h1{
     position: absolute;
