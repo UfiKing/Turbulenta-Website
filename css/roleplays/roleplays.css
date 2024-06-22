@@ -1,17 +1,33 @@
 h1{
     text-align: center;
 }
-aside{
-    display: inline-block;
+.grid div{
     background-color: hsl(231, 26%, 20%);
     border: 1px solid hsl(231, 26%, 20%);
-    padding: 20px;
     border-radius: 20px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
-.RPpage span{
+.grid span{
     background-color: rgb(57, 57, 57);
     border-radius: 10px;
     padding: 5px;
     font-size: 10px;
-    color: rgb(89, 89, 89) ;
+    color: rgb(75, 115, 11) ;
+    
+}
+.grid span:not(#primer){
+    position: relative;
+    top: -8px;  
+}
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+hr{
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    border-color: rgb(255, 255, 255);
 }
