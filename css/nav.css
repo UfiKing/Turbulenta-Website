@@ -1,15 +1,24 @@
 *{
     box-sizing: border-box;
 }
+:root{
+    --back: hsl(231, 26%, 10%);
+}
 body{
     margin: 0px;
     padding: 0px;
 }
 
 header{
-    background-color: hsl(231, 26%, 10%);
+    background-color: var(--back);
 }
-
+main{
+    display: inline-block;
+    padding-left: 30px;
+    background-color: var(--back);
+    color: white;
+    width: 100%;
+}
 .navbar{
     text-align: center;
 
@@ -72,7 +81,14 @@ header{
     text-decoration: none;
     color: white;
 }
-
+.frontimage a{
+    text-decoration: none;
+    color: rgb(142, 140, 140);
+}
+.frontimage a:hover{
+    text-decoration: dashed;
+    color:rgb(154, 153, 148);
+}
 
 /* dropdown - turb 
 content is same*/
