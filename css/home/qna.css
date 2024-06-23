@@ -25,6 +25,7 @@ header{
     padding-left: 5%;
     padding-right: 5%;
 }
+
 .questions{
     border: 2px solid hsl(231, 26%, 20%);
     border-radius: 20px;
@@ -32,4 +33,7 @@ header{
     margin-right: 15%;
     margin-bottom: 50px;
     background-color: hsl(231, 26%, 20%);
+}
+.questions:hover{
+    cursor: pointer;
 }
