@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+}
+main div:not(#grid){
+    display: inline-block;
+    background-color: hsl(231, 26%, 20%);
+    border: 1px solid hsl(231, 26%, 20%);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+main{
+    background-color: hsl(231, 26%, 10%);
+}
+main img{
+    
+    height: auto;
+    width: 100%;
+    padding-right: 5%;
+    
+}
+hr{
+    width: 98%;
+    padding: 0;
+    margin: 0;
+    border-color: rgb(255, 255, 255);
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: 20px 1fr 1fr 1fr;
+}
+.grid2 img{
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+#grid p{
+    font-size: 20px;
+}
+
+#desc{
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+#mladizmaji{
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+}
+
+#digimc{
+    grid-row: 3 / 3;
+    grid-column: 2 / 3;
+}
+
+#amulet{
+    grid-column: 3 / 4;
+    grid-row: 3 / 3;
+}
