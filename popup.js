@@ -1,3 +1,29 @@
+        /*
+        what does this code do?
+        na kratko, na Items pagu je grid napolnjen z slikami okoli katerih je wrapped around button element
+        ta koda prikaze pop up window (modal) ki je najprej skrit z pomocjo CSSa in jo prikaze na sredini strani
+        zraven je tudi SPAN element v obliki krizca ce na katerega kliknes se zapre popup window.
+        popup window se tudi zapre ce kliknes izven popup windowa
+
+        najprej vse popup windowe assigna variablu modal(n), 
+        naming scheme za popup windowe je pop+zacetnice vseh besed v imenu artifacta (primer: Helm Of Shidin = popHOS)
+
+        nato vse button elemente assigna variablu btn(n)
+        naming scheme je za gumbe je isti kokr tisti pri pop up windowih
+
+        in se za zadnje variable se vse Span elemente ki zaprejo popup window
+        v originalni kodi ki sem jo kopiral je popral span ne z .getElementById ampak z 
+        .getElementsByClass in tako nebi potrebovali 17 razlicnih variablov, 
+        ampak ko sem dodal vec popup window-ov mi ni delalo zato sem raje naredil to kar je sedaj
+        
+        Potem so funkcije za button elemente da odprejo popup window (prestavijo iz display:none na display:block)
+
+        Nato se doda funkcijo span elementom da lahko zaprejo popup window
+        
+        za konec je en dolg if/else if statment ki preveri ce user klikne izven popupa in zapre popup
+        
+        
+        */
         // Get the modal
         var modal = document.getElementById("popROSD");
         var modal1 = document.getElementById("popRRL");
