@@ -26,7 +26,7 @@ main {
 .navbar {
     text-align: center;
 
-    background-color: hsl(25, 75%, 47%);
+    background-color: hsl(129, 74%, 35%);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -44,6 +44,7 @@ main {
     display: block;
     text-align: center;
     font-size: 20px;
+    float: left;
 }
 
 #tab:hover {
@@ -127,7 +128,7 @@ content is same*/
     float: none;
     padding: 12px 16px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     display: block;
     text-align: left;
     background-color: hsl(25, 75%, 47%);
