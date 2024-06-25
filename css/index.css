@@ -38,7 +38,7 @@ main {
 }
 
 #tab {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -60,7 +60,7 @@ main {
     float: right;
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .frontimage {
@@ -131,7 +131,7 @@ content is same*/
     color: rgb(255, 255, 255);
     display: block;
     text-align: left;
-    background-color: hsl(25, 75%, 47%);
+    background-color: hsl(129, 74%, 35%);;
 
 }
 
