@@ -1,0 +1,118 @@
+main {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    padding: 10px 0 10px;
+    background-color: hsl(231, 26%, 10%);
+}
+
+main div:not(#grid) {
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid hsl(231, 26%, 20%);
+    border-radius: 20px;
+    background-color: hsl(231, 26%, 20%);
+    padding: 20px;
+}
+
+main img {
+    height: auto;
+    width: 100%;
+    padding-right: 5%;
+}
+
+/*FRONT IMAGE*/
+
+.frontimage {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+
+.frontimage img {
+    width: 100vw;
+    max-width: 100%;
+    mask-image: linear-gradient(#000000, hsla(0, 0%, 0%, 0));
+}
+
+.frontimage h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.frontimage p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.frontimage a {
+    text-decoration: none;
+    color: rgb(142, 140, 140);
+}
+
+.frontimage a:hover {
+    text-decoration: dashed;
+    color: rgb(154, 153, 148);
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 98%;
+    padding: 0;
+    margin: 0;
+    border-color: rgb(255, 255, 255);
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: 20px 1fr 1fr 1fr;
+}
+
+.grid2 img {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+#grid p {
+    font-size: 20px;
+}
+
+#desc {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+
+#mladizmaji {
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+}
+
+#digimc {
+    grid-row: 3 / 3;
+    grid-column: 2 / 3;
+}
+
+#amulet {
+    grid-column: 3 / 4;
+    grid-row: 3 / 3;
+}

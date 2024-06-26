@@ -1,48 +1,51 @@
-footer{
-    
-    background-color:hsl(228, 6%, 16%);
+footer {
+    background-color: hsl(228, 6%, 16%);
     color: white;
     width: 100%;
     padding-left: 20px;
-    
 }
 
-.grid{
-    display: grid;  
+.grid {
+    display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 1fr;
 }
 
-
-.pages{
+.pages {
     grid-column: 1 / 2;
 }
-.pages a{
+
+.pages a {
     text-decoration: none;
     color: white;
 }
-.pages ul{
+
+.pages ul {
     list-style-type: none;
 }
-.roleplays{
+
+.roleplays {
     grid-column: 2 / 3;
 }
-.roleplays a{
+
+.roleplays a {
     text-decoration: none;
     color: white;
 }
-.roleplays ul{
+
+.roleplays ul {
     list-style-type: none;
 }
-.links{
+
+.links {
     grid-column: 3 / 4;
 }
-.links a{
+
+.links a {
     text-decoration: none;
     color: white;
 }
-.links ul{
+
+.links ul {
     list-style-type: none;
 }
-
-

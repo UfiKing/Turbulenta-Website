@@ -1,46 +1,43 @@
-main{
-    background-color: none;
-    background-image: url(images/Turbulenta_parchment.jpg);
-    background-size: contain;
-
-}
-.page{
+.page {
     background-color: hsla(231, 25%, 20%, 0.92);
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 50px;
     overflow: hidden;
 }
-h1{
-    padding: 20px;
-    padding-bottom: 5px;
-}
-.intro-text p{
+
+.intro-text p {
     padding: 20px;
     width: 65%;
     float: left;
 }
-.description p{
+
+.description p {
     padding-left: 20px;
     width: 65%;
     float: left;
 }
-.info-box{
+
+.info-box {
     background-color: hsla(231, 25%, 30%, 0.90);
     width: 30%;
     float: right;
     padding: 20px;
     margin: 10px;
 }
-.info-box img{
+
+.info-box img {
     width: 100%;
 }
-.info-box h3{
+
+.info-box h3 {
     text-align: center;
 }
-.info-box h4{
+
+.info-box h4 {
     text-align: center;
 }
-.info-box ul{
+
+.info-box ul {
     list-style: none;
 }
