@@ -5,7 +5,7 @@ footer {
     padding-left: 20px;
 }
 
-.grid {
+.footerBox {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 1fr;

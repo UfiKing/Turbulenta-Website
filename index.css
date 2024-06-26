@@ -10,3 +10,17 @@ body {
 header {
     background-color: hsl(231, 26%, 10%);
 }
+
+main {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    padding: 10px 0 10px;
+    background-color: hsl(231, 26%, 10%);
+}
+
+main img {
+    height: auto;
+    width: 100%;
+    padding-right: 5%;
+}
