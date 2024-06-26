@@ -26,3 +26,12 @@
 .questions:hover {
     cursor: pointer;
 }
+#aboutTurbulenta{
+    border: 2px solid hsl(231, 26%, 20%);
+    border-radius: 20px;
+    background-color: hsl(231, 26%, 20%);
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
