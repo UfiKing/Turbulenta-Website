@@ -1,7 +1,7 @@
 h1{
     text-align: center;
 }
-.grid div{
+.grid div:not(.footer){
     background-color: hsl(231, 26%, 20%);
     border: 1px solid hsl(231, 26%, 20%);
     border-radius: 20px;
