@@ -67,15 +67,20 @@
             </div>
         </nav>
 
-        <div class="frontimage">
-            <img src="../images/notfound.png" alt="a picture of your mother TODO">
-            <div class="fronttext">
-                <h1 style="text-align: center;">Uh oh!</h1>
-                <p>Looks like either this page does not exist or is currently under construction.</p>
-            </div>
-        </div>
-
     </header>
+
+    <main>
+
+        <script src="./utilities.js"></script>
+        <script>
+            window.onload = createBanner({
+                title: "Uh oh!",
+                text: "Looks like either this page does not exist or is currently under construction.",
+                imgSrc: "../images/notfound.png"
+            })
+        </script>
+
+    </main>
 
     <footer>
         <div class="footerBox">

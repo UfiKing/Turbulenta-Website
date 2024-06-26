@@ -67,23 +67,23 @@
             </div>
         </nav>
 
-        <div class="frontimage">
-            <img src="../images/kat.png" alt="">
-            <div class="fronttext">
-                <h1 style="text-align: center;">Info</h1>
-                <p>
-                    Here you can find information about turbulenta.
-                </p>
-            </div>
-        </div>
-
     </header>
 
     <main>
-        <h1>Information</h1>
-        <div class="grid1" id="grid">
+
+        <script src="./utilities.js"></script>
+        <script>
+            window.onload = createBanner({
+                title: "Info",
+                text: "Here you can find information about turbulenta.",
+                imgSrc: "../images/kat.png"
+            })
+        </script>
+
+        <h2>Information</h2>
+        <div class="grid1">
             <div id="aboutTurbulenta">
-                <h1>About Turbulenta</h1>
+                <h3>About Turbulenta</h3>
                 <hr>
                 <p>Turbulenta is a western marches inspired D&D online campaign where almost anybody can join in.
                     The game is set on an island of Turbulenta where a new colony from the Iron Rose Kingdom, or Rosa de

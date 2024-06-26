@@ -26,6 +26,8 @@
 main {
     display: inline-block;
     width: 100%;
+    height: 100%;
+    min-height: 100vh;
     color: white;
     background-color: hsl(231, 26%, 10%);
     z-index: -1;
@@ -53,11 +55,6 @@ hr {
     border-color: rgb(255, 255, 255);
 }
 
-.grid1 {
-    display: grid;
-    grid-template-columns: 70% 30%;
-}
-
 .grid2 {
     display: grid;
     grid-template-columns: 30% 35% 35%;
@@ -67,10 +64,6 @@ hr {
 .grid2 img {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
-}
-
-#grid p {
-    font-size: 20px;
 }
 
 #desc {

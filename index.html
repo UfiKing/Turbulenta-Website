@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./router/items.css">
     <link rel="stylesheet" href="./router/navbar.css">
     <link rel="stylesheet" href="./router/roleplays.css">
-    <link rel="stylesheet" href="./router/wiki.css">
+    <link rel="stylesheet" href="./wiki/wiki.css">
     <script src="https://kit.fontawesome.com/07f6ba4c8a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -68,19 +68,19 @@
             </div>
         </nav>
 
-        <div class="frontimage">
-            <img src="images/shipwreck.png" alt="A picture of a fantasy wooden shitwreck">
-            <div class="fronttext">
-                <h1 style="text-align: center;">Welcome to Turbulenta!</h1>
-                <p>Turbulenta is a (free) online D&D campaign, that was started in 2023 by Mladi zmaji,
-                    in collaboration with Amulet D20. It's played on the official Mladi Zmaji discord server DigiMC.
-                </p>
-            </div>
-        </div>
-
     </header>
 
     <main>
+
+        <script src="./router/utilities.js"></script>
+        <script>
+            window.onload = createBanner({
+                title: "Welcome to Turbulenta!",
+                text: "Turbulenta is a (free) online D&D campaign, that was started in 2023 by Mladi zmaji, in collaboration with Amulet D20. It's played on the official Mladi Zmaji discord server DigiMC.",
+                imgSrc: "./images/shipwreck.png"
+            })
+        </script>
+
         <div class="qna">
             <div class="questions" style="margin-top: 50px;">
                 <h2>What is Turbulenta</h2>

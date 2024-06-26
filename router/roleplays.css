@@ -16,6 +16,13 @@
     color: blue;
 }
 
+.roleplayBox {
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    z-index: 0;
+}
+
 .roleplayBox div {
     background-color: hsl(231, 26%, 20%);
     border: 1px solid hsl(231, 26%, 20%);
@@ -31,24 +38,11 @@
     padding: 5px;
     font-size: 10px;
     color: rgb(75, 115, 11);
-
 }
 
 .roleplayBox span:not(#primer) {
     position: relative;
     top: -8px;
-}
-
-.roleplayBox {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-
-hr {
-    width: 90%;
-    padding: 0;
-    margin: 0;
-    border-color: rgb(255, 255, 255);
 }
 
 .roleplayBox a {
