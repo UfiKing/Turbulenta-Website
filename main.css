@@ -1,55 +1,49 @@
-/*FRONT IMAGE*/
+/*BANNER*/
 
-.frontimage {
+.bannerBox {
     position: relative;
-    display: inline-block;
-    height: 100%;
+    width: 100%;
+    z-index: 0;
 }
 
-.frontimage img {
-    width: 100vw;
+.bannerText {
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 3px 3px 5px black;
+}
+
+.bannerImg {
+    position: absolute;
+    top: 0px;
     max-width: 100%;
     mask-image: linear-gradient(#000000, hsla(0, 0%, 0%, 0));
+    z-index: -1;
 }
 
-.frontimage h1 {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/*COMMON MAIN*/
+
+main {
+    display: inline-block;
+    width: 100%;
     color: white;
-    font-size: 60px;
-    text-align: center;
-}
-
-.frontimage p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
-
-.frontimage a {
-    text-decoration: none;
-    color: rgb(142, 140, 140);
-}
-
-.frontimage a:hover {
-    text-decoration: dashed;
-    color: rgb(154, 153, 148);
+    background-color: hsl(231, 26%, 10%);
+    z-index: -1;
 }
 
 h1 {
+    font-size: 50px;
     text-align: center;
+    text-shadow: 3px 3px 5px black;
+    margin: 0;
+    padding: 30px 0 0;
 }
 
 h2 {
+    position: relative;
     font-size: 30px;
     text-align: center;
+    text-shadow: 3px 3px 5px black;
 }
 
 hr {
@@ -122,4 +116,3 @@ hr {
     margin: 20px;
     padding: 20px;
 }
-
