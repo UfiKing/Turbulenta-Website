@@ -1,32 +1,20 @@
-:root{
-    --back: hsl(231, 26%, 10%);
-}
-main{
-    display: inline-block;
-    padding-left: 30px;
-    background-color: var(--back);
-    color: white;
+.qna {
     width: 100%;
 }
-header{
-    background-color: var(--back);
 
-}
-.qna{
-    width: 100%;
-}
-.qna h2{
+.qna h2 {
     font-size: 50px;
     text-align: center;
 }
-.qna p{
+
+.qna p {
     font-size: 25px;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-.questions{
+.questions {
     border: 2px solid hsl(231, 26%, 20%);
     border-radius: 20px;
     margin-left: 15%;
@@ -34,6 +22,7 @@ header{
     margin-bottom: 50px;
     background-color: hsl(231, 26%, 20%);
 }
-.questions:hover{
+
+.questions:hover {
     cursor: pointer;
 }
