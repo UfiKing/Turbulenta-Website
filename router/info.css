@@ -43,4 +43,15 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 10%;
+    grid-column: 1 / 2;
+}
+.grid1 img{
+    width: 90%;
+    grid-column: 2 / 3;
+    height: auto;
+}
+.grid2 img{
+    width: 90%;
+    grid-column: 1 / 2;
+    height: auto;
 }
